@@ -1,0 +1,122 @@
+body{
+  background-image: url("bg1.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 100%;
+}
+
+/* Style the header */
+.header {
+  background: rgba(0, 0, 0, 0.616);
+  height: 60px;
+  padding: 30px;
+  text-align: center;
+  text-decoration:double;
+  font-size: 300%;
+  color: white;
+  font-weight: bolder;
+  
+}
+.header img{
+  float: left;
+  height: 70px;
+  width: 80px;
+}
+
+h5{
+  height: 20px;
+  margin-top: 0px;
+  margin-left: 10px;
+  float: left;
+  font-weight: bolder;
+}
+
+header{
+  margin-right: 200px;
+}
+
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: rgba(0, 60, 138, 0.651);
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  font-size: 18px;
+  padding: 14px 16px;
+  font-weight: bolder;
+  width: 10%;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.container{
+    height: 1151;
+    width: 2084;
+    
+}
+p.intro{
+  margin-top: 10px;
+  font-size: 80px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  font-weight: bolder;
+  color:rgb(231, 227, 227);
+  -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+}
+
+.tab table{
+  margin-left: 20px;
+  margin-right: 20px;
+  border-spacing: 60px;
+  
+}
+
+.tab td{
+  height: 400px;
+  width: 300px;
+  background-image: linear-gradient(rgba(10, 53, 82, 0.24),lightblue);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2) , 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: center;
+  transition: transform .2s;
+}
+
+.tab td:hover{
+  background-color: rgb(69, 128, 238);
+  transform: scale(1.1);
+}
+
+.tab img{
+  margin-top: 0px;
+  height: 200px;
+  width: 300px;
+}
+
+.footer table{
+  border-spacing: 100px 0;
+}
+
+.footer td{
+  text-align: center;
+  height: 30px;
+  width: 200px;
+  margin: 0px;
+}
+
+.footer{
+    background:gray;
+    padding: 20px;
+    text-align: center;
+    height: 200px;
+  }
